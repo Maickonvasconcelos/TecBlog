@@ -1,0 +1,53 @@
+a{
+   color: white;
+   padding: 20px;
+   position: relative;
+   left: 200px;
+   text-decoration: none;
+}
+
+a :hover{
+    color: #FFA500;
+    background: white;
+}
+body{
+    background: #E8E8E8;
+}
+
+.cabeçalho{
+    background: #FFA500;
+    margin: 0px ;
+    padding: 30px;
+}
+
+
+.tecblog{
+    position: relative ;
+    left:350px;
+}
+
+.postagem{
+    background: white;
+    border: 1px solid red;
+    width: 250px;
+    
+
+
+
+}
+
+.imagem{
+    background: white;
+    width: 660px;
+    height: 700px;
+    margin: 5px;
+    padding: 20px;
+}
+
+#principal{
+    
+    
+}
+.clear{
+    clear: both;
+}

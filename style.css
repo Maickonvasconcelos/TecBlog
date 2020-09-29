@@ -1,53 +1,50 @@
-a{
-   color: white;
-   padding: 20px;
-   position: relative;
-   left: 200px;
-   text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-a :hover{
-    color: #FFA500;
-    background: white;
-}
+
 body{
-    background: #E8E8E8;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6
 }
-
-.cabeçalho{
-    background: #FFA500;
-    margin: 0px ;
-    padding: 30px;
+/*
+****Formataçoes do menu ****
+*/
+a {
+    text-decoration: none;
 }
-
-
-.tecblog{
-    position: relative ;
-    left:350px;
+a:link, a:visited{
+    color: white;
+    padding: 18px 12px;
 }
-
-.postagem{
+a:hover{
+    color: #f7b600;
     background: white;
-    border: 1px solid red;
-    width: 250px;
-    
-
-
 
 }
 
-.imagem{
-    background: white;
-    width: 660px;
-    height: 700px;
-    margin: 5px;
-    padding: 20px;
-}
 
-#principal{
-    
-    
+/*
+**** Layout ****
+*/
+#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
 }
-.clear{
-    clear: both;
+#area-logo, #area-menu{
+    padding: 10px;
+}
+/*
+****Formataçoes em geral ****
+*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+.branco{
+    color: white;
 }

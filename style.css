@@ -16,15 +16,23 @@ a {
     text-decoration: none;
 }
 a:link, a:visited{
+    color: #f7b600;
+    
+}
+a:hover{
+   text-decoration: underline;
+
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
     color: white;
     padding: 18px 12px;
 }
-a:hover{
+#area-cabecalho a:hover{
     color: #f7b600;
     background: white;
+    text-decoration: none;
 
 }
-
 
 /*
 **** Layout ****
@@ -40,15 +48,16 @@ a:hover{
 #area-principal{
     width: 920px;
     margin: 0px auto;
+    padding: 15px;
 }
 #area-postagens{
-    background: orange;
+  
     width: 660px;
     float: left;
 
 }
 #area-lateral{
-    background: orange;
+    background: white;
     width: 240px;
     float: right;
 }
@@ -57,6 +66,7 @@ a:hover{
     margin-bottom: 20px;
     background: white;
 }
+
 #rodape{
     background: #ccc;
     clear: both;
@@ -69,10 +79,22 @@ a:hover{
 ****Formataçoes em geral ****
 */
 
+
+
+.branco{
+    color: white;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom:1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
 h1{
     color: #4e4e4e;
     font-size: 2.5em;
 }
-.branco{
-    color: white;
+h2{
+    color: #f7b600;
 }

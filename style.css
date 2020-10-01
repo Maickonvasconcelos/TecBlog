@@ -57,7 +57,7 @@ a:hover{
 
 }
 #area-lateral{
-    background: white;
+    
     width: 240px;
     float: right;
 }
@@ -66,12 +66,24 @@ a:hover{
     margin-bottom: 20px;
     background: white;
 }
+.conteudo-lateral{
+    background: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+
+}
 
 #rodape{
     background: #ccc;
     clear: both;
     text-align: center;
     padding: 15px;
+    
 
 
 }
@@ -97,4 +109,9 @@ h1{
 }
 h2{
     color: #f7b600;
+}
+h3{
+    color: #565656;
+    background:#ccc;
+    padding: 5px;
 }
